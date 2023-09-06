@@ -1,5 +1,4 @@
 # Okta
-All things Okta
 This repository contains the materials that I used to prepare for the Okta Professional Certification. The certification is designed to demonstrate knowledge of secure identity management and mobility concepts. It is a valuable credential for IAM security engineers who want to demonstrate their skills and knowledge to potential employers.
 
 The repository is organized into the following folders:
