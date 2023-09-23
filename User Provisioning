@@ -25,3 +25,26 @@ Use strong passwords for all users.
 Enable two-factor authentication for all users.
 Assign users to the appropriate groups and applications.
 Review user accounts regularly to ensure that they are still active and that they have the appropriate permissions.
+
+
+To assign an admin role to a user in Okta, follow these steps:
+
+Log in to the Okta Admin Console.
+Navigate to Security > Administrators.
+Click Add Administrator.
+In the Select Admin field, enter the user's email or username and select them from the resulting search.
+In the Role drop-down menu, select the role you wish the user to have.
+Click Save Changes.
+Note: Only super administrators can manage admins in Okta.
+
+To assign an admin role to a user from the user's profile page:
+
+In the Admin Console, navigate to Directory > People.
+Select the user you want to assign the admin role to.
+Click the Admin Roles tab.
+If the user doesn't have any existing admin role assignments, click Add admin assignment. If the user already has existing admin assignments, click Edit individual assignments.
+In the Role drop-down menu, select the role you wish the user to have.
+Click Save Changes.
+Once you have assigned an admin role to a user, they will be able to perform the tasks associated with that role. For example, if you assign the Super Administrator role to a user, they will be able to manage all aspects of your Okta organization, including users, groups, applications, and policies.
+
+It is important to only assign admin roles to users who need them. Assigning too many users admin roles can increase the risk of security breaches.
