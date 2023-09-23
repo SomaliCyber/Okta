@@ -1,0 +1,27 @@
+Create a new user in Okta, follow these steps:
+
+Log in to the Okta Admin Console.
+Navigate to Directory > People.
+Click Add Person.
+Select a user type in the User type list or accept the default. See About custom user types in Universal Directory.
+Complete the following fields:
+First name
+Last name
+Username (in email format)
+Primary email (if different from username)
+Secondary email (optional)
+Groups (optional)
+Password (select Set by user to allow the user to set their password, or select Set by admin and enter a password)
+Send user activation now (optional)
+User must change password on first login (optional)
+Click Save Changes.
+Note: If you are creating a user with a custom user type, you may need to complete additional fields.
+
+Once you have created the user, they will be able to log in to Okta and access the applications and resources that you have assigned to them.
+
+Here are some additional tips for creating new users in Okta:
+
+Use strong passwords for all users.
+Enable two-factor authentication for all users.
+Assign users to the appropriate groups and applications.
+Review user accounts regularly to ensure that they are still active and that they have the appropriate permissions.
