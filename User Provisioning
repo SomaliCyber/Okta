@@ -48,3 +48,45 @@ Click Save Changes.
 Once you have assigned an admin role to a user, they will be able to perform the tasks associated with that role. For example, if you assign the Super Administrator role to a user, they will be able to manage all aspects of your Okta organization, including users, groups, applications, and policies.
 
 It is important to only assign admin roles to users who need them. Assigning too many users admin roles can increase the risk of security breaches.
+
+
+To create a group in Okta, follow these steps:
+
+Log in to the Okta Admin Console.
+Navigate to Directory > Groups.
+Click Create Group.
+Enter a name for the group in the Name field.
+Optional: Enter a description for the group in the Group Description field.
+Click Create Group.
+
+
+To add people to a group, follow these steps:
+
+Log in to the Okta Admin Console.
+Navigate to Directory > Groups.
+Select the group that you want to add people to.
+Click the Users tab.
+In the Username field, enter the name of the user you want to add to the group.
+Click Add User.
+
+You can also add multiple users to a group at once by uploading a CSV file. To do this, follow these steps:
+
+Log in to the Okta Admin Console.
+Navigate to Directory > Groups.
+Select the group that you want to add people to.
+Click the Users tab.
+Click Assign people.
+Click More Actions > Assign people via import from CSV.
+Click Browse and select the CSV file that contains the names of the users you want to add to the group.
+Click Open.
+Click Assign.
+Once you have added people to a group, they will be able to access the applications and resources that you have assigned to the group.
+
+Here are some additional tips for creating and managing groups in Okta:
+
+Use descriptive names for your groups so that you can easily identify them.
+Assign users to the appropriate groups based on their job roles and permissions.
+Review your groups regularly to ensure that they are still active and that the users assigned to them have the appropriate permissions.
+You can also use groups to create and manage application assignments. 
+For example, you can create a group for all users who need to access a particular application and then assign the application to the group. 
+This will make it easier to manage application access for all of your users.
