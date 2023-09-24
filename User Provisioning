@@ -90,3 +90,19 @@ Review your groups regularly to ensure that they are still active and that the u
 You can also use groups to create and manage application assignments. 
 For example, you can create a group for all users who need to access a particular application and then assign the application to the group. 
 This will make it easier to manage application access for all of your users.
+
+To populate a group using group rules in Okta, follow these steps:
+
+Create a group rule that matches the users who you want to add to the group. You can use basic conditions or the Okta Expression Language to create rules.
+Assign the group rule to the group that you want to populate.
+Click Save.
+Once you have saved the group rule, it will be evaluated periodically and any users who match the rule conditions will be added to the group.
+
+Here are some examples of group rules that you can use to populate groups:
+
+Add all users with the email domain @example.com to the Example Company Employees group.
+Add all users with the job title Software Engineer to the Software Engineers group.
+Add all users who have completed the Onboarding Training course to the Onboarded Users group.
+You can also use group rules to populate groups based on combinations of attributes. For example, you could create a group rule that adds all users with the job title Software Engineer and the department Engineering to the Engineering Software Engineers group.
+
+Group rules can be a powerful tool for automating the management of groups in Okta. By using group rules, you can ensure that your groups are always up-to-date and that the right users are assigned to the right groups.
